@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "GitHub",
+    "icon": "<AiFillGithub />",
+    "url": ""
+  },
+  {
+    "id": 2,
+    "name": "Instagram",
+    "icon": "<AiOutlineInstagram />",
+    "url": ""
+  },
+  {
+    "id": 3,
+    "name": "Medium",
+    "icon": "<AiOutlineMedium />",
+    "url": ""
+  },
+  {
+    "id": 4,
+    "name": "Email",
+    "icon": "<AiOutlineMail />",
+    "url": ""
+  },
+  {
+    "id": 5,
+    "name": "Discord",
+    "icon": "<FaDiscord />",
+    "url": ""
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn",
+    "icon": "<AiOutlineLinkedin />",
+    "url": ""
+  },
+  {
+    "id": 7,
+    "name": "Twitter",
+    "icon": "<AiOutlineTwitter />",
+    "url": ""
+  },
+  {
+    "id": 8,
+    "name": "SnapChat",
+    "icon": "<FaSnapchatGhost />",
+    "url": ""
+  }
+]

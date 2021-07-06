@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.SearchHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  height: 70px;
+  background-color: rgb(245, 245, 245);
+}
+.SearchHeaderLeft,
+.SearchHeaderRight {
+  display: flex;
+  align-items: center;
+}
+.SearchHeaderLeftImage {
+  width: 30%;
+  margin: 0px 10px 0px 0px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .SearchHeaderLeftImage {
+    width: 100%;
+  }
+}
+
+.SearchHeaderLeftImage img {
+  width: 100%;
+}
+.SearchHeaderLeftSearchBar {
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  padding: 0px 0px 0px 30px;
+}
+.SearchHeaderLeftSearchBarInput {
+  width: 70%;
+}
+.SearchHeaderLeftSearchBarInput input {
+  width: 100%;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.SearchHeaderLeftSearchBarButton {
+  background-color: #4285f4;
+}
+.SearchHeaderLeftSearchBarButton button {
+  outline: none;
+  border: 1px solid #4285f4;
+  padding: 8px 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: #4285f4;
+  color: rgb(255, 255, 255);
+}

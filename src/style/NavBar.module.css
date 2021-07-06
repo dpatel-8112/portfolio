@@ -1,0 +1,31 @@
+.NavBar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.185);
+  height: 70px;
+}
+.NavBarWrap {
+  position: absolute;
+  width: fit-content;
+  left: 180px;
+}
+@media only screen and (max-width: 600px) {
+  .NavBarWrap {
+    left: 0px;
+  }
+}
+.NavBarContainer {
+  display: flex;
+  font-size: 18px;
+}
+.NavBarItem {
+  padding: 20px 10px;
+  color: rgba(110, 110, 110, 0.76);
+  cursor: pointer;
+}
+.active {
+  border-bottom: 4px solid #4285f4;
+  border-radius: 3px;
+}

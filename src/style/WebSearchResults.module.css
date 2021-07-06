@@ -1,0 +1,90 @@
+.WebSearchResults {
+  width: 100%;
+  padding-bottom: 100px;
+}
+.SearchResultTIme {
+  text-align: left;
+  padding: 20px 0px 10px 170px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+}
+.ResultsRow {
+  justify-content: center;
+  padding: 0px 50px 0px 170px;
+}
+.ResultsMainContainer {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .SearchResultTIme,
+  .ResultsRow {
+    padding: 20px 20px 10px 20px;
+  }
+}
+.ResultsContainer {
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+}
+.ResultContainer {
+  /* width: fit-content; */
+  padding: 0px;
+}
+.ResultHeading {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(0, 0, 255);
+  cursor: pointer;
+}
+.ResultLink {
+  font-size: 15px;
+  font-weight: 500px;
+  color: rgb(1, 102, 1);
+  cursor: pointer;
+}
+.ResultLink a {
+  color: unset;
+}
+.ResultDescription {
+  font-size: 16px;
+  font-weight: 400;
+  cursor: text;
+}
+.ResultDescription p {
+  color: rgb(58, 58, 58);
+}
+.CardHeading,
+.CardDesignation {
+  margin: 0;
+}
+.CardHeading span {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.CardDesignation span {
+  font-size: 16px;
+  padding: 0;
+  color: rgb(104, 103, 103);
+}
+.CardInfoWrap {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.CardInfo {
+  padding: 3px 0px;
+}
+.CardInfoKey {
+  font-weight: 600;
+}
+.CardInfoValue {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+}
+.CardInfoValue a {
+  /* text-decoration: none; */
+  color: unset;
+}
