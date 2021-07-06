@@ -12,7 +12,8 @@ function Main() {
   const obj = [
     "Hi ...",
     "My Name is Devarshi Patel.",
-    "I am a Part time Web Developer.",
+    "I write code and make stuff.",
+    "I Develop Web Application Using React.",
   ];
 
   let arrayIndex = 0;

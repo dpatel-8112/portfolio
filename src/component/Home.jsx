@@ -6,12 +6,6 @@ import { ActiveTabProvider } from "../context/ActiveTabContext";
 import ResumeSkills from "./ResumeSkills";
 
 function Home() {
-  const nomenclature = {
-    "Google Resume": "GoogleResume",
-    Contact: "Contact",
-    Skills: "Skills",
-  };
-
   const [isResumeOpen, setIsResumeOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isSkillsOpen, setIsSkillsOpen] = useState(false);
