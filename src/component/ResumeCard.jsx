@@ -57,7 +57,11 @@ function ResumeCard() {
             <div className={style.CardInfo}>
               <div style={{ fontWeight: "500" }}>Profiles</div>
               <div style={{ display: "flex" }}>
-                <a target="_blank" style={{ textDecoration: "none" }} href="">
+                <a
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                  href="https://github.com/dpatel-8112/"
+                >
                   <div style={{ padding: "10px" }}>
                     <div style={{ fontSize: "30px", textAlign: "center" }}>
                       <AiFillGithub />
@@ -65,7 +69,11 @@ function ResumeCard() {
                     <div>GitHub</div>
                   </div>
                 </a>
-                <a target="_blank" style={{ textDecoration: "none" }} href="">
+                <a
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                  href="https://www.instagram.com/dpatel_8112/"
+                >
                   <div style={{ padding: "10px" }}>
                     <div style={{ fontSize: "30px", textAlign: "center" }}>
                       <AiOutlineInstagram />
@@ -73,7 +81,11 @@ function ResumeCard() {
                     <div>Instagram</div>
                   </div>
                 </a>
-                <a target="_blank" style={{ textDecoration: "none" }} href="">
+                <a
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                  href="https://www.linkedin.com/in/devarshi-dot-patel/"
+                >
                   <div style={{ padding: "10px" }}>
                     <div style={{ fontSize: "30px", textAlign: "center" }}>
                       <AiOutlineLinkedin />
