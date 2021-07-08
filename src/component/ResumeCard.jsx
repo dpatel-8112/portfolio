@@ -31,7 +31,7 @@ function ResumeCard() {
             <div className={style.CardInfo}>
               <span className={style.CardInfoKey}>Born : </span>
               <span className={style.CardInfoValue}>
-                08 November 2000 (21 years)
+                08 November 2000 (20 years)
               </span>
             </div>
             <div className={style.CardInfo}>
@@ -39,8 +39,15 @@ function ResumeCard() {
               <span className={style.CardInfoValue}>Indian</span>
             </div>
             <div className={style.CardInfo}>
-              <span className={style.CardInfoKey}>Occupation : </span>
-              <span className={style.CardInfoValue}>Freelance</span>
+              <span className={style.CardInfoKey}>Hometown : </span>
+              <span className={style.CardInfoValue}>
+                <a
+                  target="_blank"
+                  href="http://maps.google.com/?q=Bharuch, Gujarat"
+                >
+                  Bharuch, Gujarat (IN)
+                </a>
+              </span>
             </div>
             <div className={style.CardInfo}>
               <span className={style.CardInfoKey}>Education : </span>
@@ -49,7 +56,7 @@ function ResumeCard() {
                   target="_blank"
                   href="http://maps.google.com/?q=Chandigarh University"
                 >
-                  Chandigarh University, Punjab
+                  Chandigarh University, Punjab (IN)
                 </a>
               </span>
             </div>
