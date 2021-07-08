@@ -6,6 +6,7 @@ import { ActiveTabContext } from "../context/ActiveTabContext";
 
 import SkillsResults from "./SkillsResults";
 import ContactForm from "./ContactForm";
+import ProjectResuts from "./ProjectResuts";
 
 function WebSearchResults() {
   const active = React.useContext(ActiveTabContext);
@@ -23,8 +24,10 @@ function WebSearchResults() {
               <ContactForm />
             ) : active.activeTab == "Skills" ? (
               <SkillsResults />
+            ) : active.activeTab == "Projects" ? (
+              <ProjectResuts />
             ) : (
-              "Page NOt Available"
+              "Page NOT Available"
             )}
           </div>
           <div className={`${style.ResultsContainer} col-lg-5 col-12`}>

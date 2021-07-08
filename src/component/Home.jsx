@@ -4,11 +4,13 @@ import GoogleResume from "./GoogleResume";
 import HomeContainer from "./HomeContainer";
 import { ActiveTabProvider } from "../context/ActiveTabContext";
 import ResumeSkills from "./ResumeSkills";
+import ResumeProjects from "./ResumeProjects";
 
 function Home() {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isSkillsOpen, setIsSkillsOpen] = useState(false);
+  const [isProjectsOpen, setIsProjectsOpen] = useState(false);
   const [activeTab, setActiveTab] = useState("Home");
 
   const resumeOpenHandler = (newState) => {
@@ -23,6 +25,10 @@ function Home() {
     setIsSkillsOpen(newState);
   };
 
+  const projectsOpenHandler = (newState) => {
+    setIsProjectsOpen(newState);
+  };
+
   const activeTabHandler = (newState) => {
     setActiveTab(newState);
   };
@@ -31,6 +37,7 @@ function Home() {
     resumeOpenHandler(activeTab == "Google Resume" ? true : false);
     contactOpenHandler(activeTab == "Contact" ? true : false);
     skillsOpenHandler(activeTab == "Skills" ? true : false);
+    projectsOpenHandler(activeTab == "Projects" ? true : false);
     console.log(activeTab);
     return () => {};
   }, [activeTab]);
@@ -49,6 +56,8 @@ function Home() {
           <Contact />
         ) : isSkillsOpen ? (
           <ResumeSkills />
+        ) : isProjectsOpen ? (
+          <ResumeProjects />
         ) : (
           <HomeContainer />
         )}

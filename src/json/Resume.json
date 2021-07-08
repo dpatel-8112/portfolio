@@ -2,7 +2,13 @@
   {
     "id": 1,
     "heading": "My Skill",
-    "link": "skills",
+    "link": "Skills",
     "description": "I have the following skills : HTML , CSS, Javascript, ReactJS, C Programming, C++ Programing, Java, Python, JSON, SQL, Git, Github, Nodejs etc etc ..."
+  },
+  {
+    "id": 2,
+    "heading": "My Projects",
+    "link": "Projects",
+    "description": "WhatsApp Clone , PomoFocus Clone , Tic-Tac-Toe Game, WhiteBoard, Random Advice, Article Preview, News Feed, Calculator, etc... "
   }
 ]

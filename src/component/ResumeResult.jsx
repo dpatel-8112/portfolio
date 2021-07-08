@@ -8,7 +8,7 @@ function ResumeResult({ heading, link, description }) {
     <>
       <div
         onClick={() => {
-          active.activeTabHandler("Skills");
+          active.activeTabHandler(link);
         }}
         className={`${style.ResultContainer} col-12`}
       >
@@ -17,7 +17,7 @@ function ResumeResult({ heading, link, description }) {
           <a href="http://amazingdotdp.me/">www.amazingdotdp.me</a> {`>`}
           <a
             onClick={() => {
-              active.activeTabHandler("Skills");
+              active.activeTabHandler(link);
             }}
           >
             {link}
