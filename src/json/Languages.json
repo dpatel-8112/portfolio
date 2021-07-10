@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "heading": "Gujarati",
+    "link1": "https://en.wikipedia.org/wiki",
+    "link2": "Gujarati_language",
+    "description": "NATIVE SPEAKER"
+  },
+  {
+    "id": 2,
+    "heading": "Hindi",
+    "link1": "https://en.wikipedia.org/wiki",
+    "link2": "Hindi",
+    "description": "Proficient"
+  },
+  {
+    "id": 3,
+    "heading": "English",
+    "link1": "https://en.wikipedia.org/wiki",
+    "link2": "English_language",
+    "description": "Proficient"
+  }
+]

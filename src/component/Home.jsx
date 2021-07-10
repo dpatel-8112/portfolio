@@ -5,12 +5,14 @@ import HomeContainer from "./HomeContainer";
 import { ActiveTabProvider } from "../context/ActiveTabContext";
 import ResumeSkills from "./ResumeSkills";
 import ResumeProjects from "./ResumeProjects";
+import ResumeLanguages from "./ResumeLanguages";
 
 function Home() {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isSkillsOpen, setIsSkillsOpen] = useState(false);
   const [isProjectsOpen, setIsProjectsOpen] = useState(false);
+  const [isLanguagesOpen, setIsLanguagesOpen] = useState(false);
   const [activeTab, setActiveTab] = useState("Home");
 
   const resumeOpenHandler = (newState) => {
@@ -28,6 +30,9 @@ function Home() {
   const projectsOpenHandler = (newState) => {
     setIsProjectsOpen(newState);
   };
+  const languagesOpenHandler = (newState) => {
+    setIsLanguagesOpen(newState);
+  };
 
   const activeTabHandler = (newState) => {
     setActiveTab(newState);
@@ -38,6 +43,7 @@ function Home() {
     contactOpenHandler(activeTab == "Contact" ? true : false);
     skillsOpenHandler(activeTab == "Skills" ? true : false);
     projectsOpenHandler(activeTab == "Projects" ? true : false);
+    languagesOpenHandler(activeTab == "Languages" ? true : false);
     console.log(activeTab);
     return () => {};
   }, [activeTab]);
@@ -58,6 +64,8 @@ function Home() {
           <ResumeSkills />
         ) : isProjectsOpen ? (
           <ResumeProjects />
+        ) : isLanguagesOpen ? (
+          <ResumeLanguages />
         ) : (
           <HomeContainer />
         )}

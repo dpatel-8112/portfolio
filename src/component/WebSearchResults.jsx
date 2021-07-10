@@ -7,6 +7,7 @@ import { ActiveTabContext } from "../context/ActiveTabContext";
 import SkillsResults from "./SkillsResults";
 import ContactForm from "./ContactForm";
 import ProjectResuts from "./ProjectResuts";
+import LanguagesResults from "./LanguagesResults";
 
 function WebSearchResults() {
   const active = React.useContext(ActiveTabContext);
@@ -26,6 +27,8 @@ function WebSearchResults() {
               <SkillsResults />
             ) : active.activeTab == "Projects" ? (
               <ProjectResuts />
+            ) : active.activeTab == "Languages" ? (
+              <LanguagesResults />
             ) : (
               "Page NOT Available"
             )}
